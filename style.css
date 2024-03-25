@@ -1,0 +1,952 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.header{
+    height: 20%;
+    width: 100%;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 7%;
+    background-color: none;
+}
+
+.logo{
+    width: 20%;
+    justify-content: start;
+}
+
+.logo img{
+    height: 70px;
+    width: auto;
+}
+
+.menu-principal{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-family: Jost, sans-serif;
+    cursor: pointer;
+}
+
+.menu-principal ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-principal li{
+    margin: 0px 15px;
+}
+
+.menu-principal a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-principal a:hover{
+    color: rgb(180, 10, 10);
+    transition: 0.3s;
+}
+
+#ultimo-item-menu{
+    margin: 0px 0px 0px 15px;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(imagens/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile-menu-icon{
+    display: none;
+
+}
+.icon{
+    width: auto;
+    height: 50px;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.conteudo-banner{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    height: 65%
+}
+
+.escrito-banner{
+    padding: 2% 7%;
+    font-family: Jost, sans-serif;
+    color: #fff;
+    z-index: 1;
+}
+
+#creartcode{
+    padding-top: 30px;
+    height: 50px;
+}
+
+.escrito-banner h1{
+    font-size: 3em;
+}
+
+.escrito-banner h3{
+    font-size: 2em;
+    color: rgb(180, 10, 10);
+}
+
+.escrito-banner p{
+    font-size: 1.5em;
+}
+
+/*Sobre Mim--------------------------------------------------*/
+
+.sobreMim{
+    padding: 5% 7%;
+    height: 80vh;
+    background-color: #fff;
+}
+
+.sobreMim-estrutura{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.sobreMim-estrutura1{
+    width: 42%;
+}
+.sobreMim-estrutura1 h1{
+    font-family: Jost, sans-serif;
+    font-size: 3em;
+}
+.sobreMim-estrutura1 h4{
+    font-family: Jost, sans-serif;
+    font-size: 1.2em;
+    color: rgb(180, 10, 10);
+}
+.sobreMim-estrutura1 ul{
+    font-family: Jost, sans-serif;
+    padding-left: 1em;
+    font-size: 1.3em;
+}
+
+.sobreMim-estrutura2{
+    margin-left: 20px;
+    margin-right: 10px;
+    background-image: url(imagens/jp2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 29%;
+}
+.sobreMim-estrutura3{
+    margin-right: 20px;
+    margin-left: 10px;
+    background-image: url(imagens/jp1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 29%;
+}
+
+/*Habilidades----------------------------------------------------*/
+.habilidades{
+    padding: 5% 7%;
+    height: auto;
+    background-color: #fff
+}
+
+.habilidades-titulo{
+    font-family: Jost,sans-serif;
+}
+
+.habilidades-titulo h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.habilidades-titulo h4{
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(180, 10, 10);
+}
+
+.fila1-cards-habilidades{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fila2-cards-habilidades{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fila3-cards-habilidades{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-habilidades-img{
+    width: 3em;
+    height: auto;
+}
+
+.card-habilidades{
+    background-color: #000;
+    padding: 20px;
+    width: 29%;
+    font-size: 0.9em;
+    color: #fff;
+    font-family: Jost, sans-serif;
+    margin-bottom: 20px;
+}
+
+.card-habilidades:hover{
+    transition: 0.3s;
+    background-color: rgb(180, 10, 10);
+}
+
+.card-habilidades-vazio{
+    padding: 20px;
+    width: 29%;
+}
+
+
+
+/*Formação-----------------------------------------*/
+
+.formacao{
+    padding: 5% 7%;
+    height: auto;
+    background-color: #000;
+}
+
+.formacao-titulo{
+    font-family: Jost,sans-serif;
+}
+
+.formacao-titulo h1{
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+}
+
+.formacao-titulo h4{
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(180, 10, 10);
+}
+
+.formacao-estrutura{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacao-estrutura1{
+    padding-left: 30px;
+    border-left: solid 5px rgb(180, 10, 10);
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formacao-estrutura2{
+    padding-left: 30px;
+    border-left: 5px solid rgb(180, 10, 10);
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-formacao{
+    width: 80%;
+    padding: 20px;
+    border: 2px solid rgb(180, 10, 10);
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.card-formacao::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(180, 10, 10);
+    border-radius: 50%;
+    left: -43.5px;
+}
+
+.calendario{
+    width: 50px;
+}
+
+.data{
+    display: flex;
+}
+
+.data h4{
+    padding-left: 15px;
+    font-family: Jost, sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+.card-formacao-conteudo{
+    font-family: Jost, sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+/*Experiência---------------------------------------------------*/
+
+.experienciaProfissional{
+    padding: 5% 7%;
+    height: auto;
+    background-color: #000;
+}
+
+.experienciaProfissional-titulo{
+    font-family: Jost, sans-serif;
+}
+
+.experienciaProfissional-titulo h1{
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+}
+
+.experienciaProfissional-titulo h4{
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(180, 10, 10);
+}
+.experienciaProfissional-estrutura{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experienciaProfissional-estrutura1{
+    padding-left: 30px;
+    border-left: 5px solid rgb(180, 10, 10);
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.experienciaProfissional-estrutura2{
+    padding-left: 30px;
+    border-left: 5px solid rgb(180, 10, 10);
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-experiencia{
+    width: 80%;
+    padding: 20px;
+    border: 2px solid rgb(180, 10, 10);
+    margin-bottom: 15px;
+    position: relative;
+    height: 10em;
+}
+
+.card-experiencia-conteudo{
+    font-family: Jost, sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.card-experiencia::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(180, 10, 10);
+    border-radius: 50%;
+    left: -43.5px;
+}
+
+/*Curiosidades---------------------------------------------------------------------------------*/
+
+.curiosidades{
+    padding: 5% 7%;
+    height: auto;
+    background-color: #fff;
+}
+
+.curiosidades-estrutura1 h1{
+    color: #000;
+    font-size: 3em;
+}
+
+.curiosidades-estrutura1 h4{
+    font-size: 1.2em;
+    color: rgb(180, 10, 10);
+}
+
+.curiosidades-estrutura{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-family: Jost, sans-serif;
+}
+
+.curiosidades-estrutura1{
+    width: 42%;
+}
+
+.curiosidades-estrutura1 ul{
+    padding-left: 1em;
+    font-size: 1.3em;
+}
+
+.curiosidades-estrutura2{
+    width: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.curiosidades-fotos-coluna1{
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.curiosidades-fotos-coluna2{
+    margin-right: 20px;
+    margin-left: 10px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.curiosidades-foto1{
+    width: 100%;
+    height: 50%;
+    background-image: url("imagens/Curiosidades-1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.curiosidades-foto2{
+    width: 100%;
+    height: 50%;
+    background-image: url("imagens/Curiosidades-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.curiosidades-foto3{
+    width: 100%;
+    height: 50%;
+    background-image: url("imagens/Curiosidades-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.curiosidades-foto4{
+    width: 100%;
+    height: 50%;
+    background-image: url("imagens/Curiosidades-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+/*Contatos-------------------------------------*/
+
+.contatos-estrutura{
+    padding: 5% 7%;
+    height: auto;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatos-estrutura1{
+    height: auto;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-estrutura1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-estrutura1-nome{
+    width: 45%;
+    font-size: 1.3em;
+    color: #000;
+    font-family: Jost, sans-serif;
+}
+
+.form-estrutura1-nome input{
+    margin-top: 5px;
+    padding: 5px;
+    border-bottom: 3px rgb(180, 10, 10) solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #000;
+    font-size: 1em;
+    width: 100%;
+    font-family: Jost, sans-serif;
+}
+
+.form-estrutura1-email{
+    width: 45%;
+    margin-right: 10px;
+    font-size: 1.3em;
+    color: #000;
+    font-family: Jost, sans-serif;
+}
+
+.form-estrutura1-email input{
+    margin-top: 5px;
+    padding: 5px;
+    border-bottom: 3px rgb(180, 10, 10) solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #000;
+    font-size: 1em;
+    width: 100%;
+    font-family: Jost, sans-serif;
+}
+
+.form-estrutura2{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1.3em;
+    color: #000;
+    font-family: Jost, sans-serif;
+}
+
+.form-estrutura2 textarea{
+    margin-top: 5px;
+    padding: 5px;
+    border-bottom: 3px rgb(180, 10, 10) solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #000;
+    font-size: 1em;
+    width: 98.5%;
+    font-family: Jost, sans-serif;
+}
+
+.contatos-estrutura1-titulo h1{
+    font-size: 3em;
+    font-family: Jost, sans-serif;
+}
+
+.contatos-estrutura1-titulo h4{
+    font-size: 1.2em;
+    color: rgb(180, 10, 10);
+    font-family: Jost, sans-serif;
+}
+
+.contatos-estrutura2{
+    width: 42%;
+}
+
+.contatos-estrutura2 h1{
+    font-size: 3em;
+    font-family: Jost, sans-serif;
+}
+
+.contatos-estrutura2 h4{
+    font-size: 1.2em;
+    color: rgb(180, 10, 10);
+    font-family: Jost, sans-serif;
+}
+
+.contato-icone{
+    height: 1.3em;
+    width: auto;
+    padding-right: 5px;
+}
+
+.contatos-estrutura2 li{
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: Jost, sans-serif;
+    list-style: none;
+}
+
+.contatos-estrutura2 li:hover{
+    color: rgb(180, 10, 10);
+}
+
+.form-botao{
+    margin-top: 20px;
+    display: flex;
+}
+
+.form-botao input{
+    padding: 10px 40px;
+    font-size: 1.3em;
+    font-family: Jost, sans-serif;
+    border: none;
+    background-color: rgb(180, 10, 10);
+    color: #fff;
+}
+
+.form-botao input:hover{
+    cursor: pointer;
+    background-color: rgb(128, 7, 7);
+    color: #fff;
+}
+
+/*Rodapé -----------------------------------------------------------------*/
+
+.rodape{
+    padding: 5% 7% 2% 7%;
+    height: auto;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-estrutura{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rodape-coluna{
+    color: #fff;
+    font-family: Jost, sans-serif;
+    font-size: 1.3em;
+    height: auto;
+    width: 23%;
+    padding-bottom: 70px;
+}
+.rodape-coluna ul{
+    padding-top: 20px;
+    list-style: none;
+}
+
+.rodape-coluna a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.rodape-coluna a:hover{
+    cursor: pointer;
+    color: rgb(180, 10, 10);
+    transition: 0.3s;
+}
+
+#logo-rodape{
+    margin-bottom: 20px;
+    height: 70px;
+    width: auto;
+}
+
+.rodape-contato{
+    display: flex;
+    align-items: center;
+}
+
+.rodape-contato:hover{
+    color:rgb(180, 10, 10);
+}
+
+.social-icone{
+    height: 1.6em;
+    width: auto;
+}
+
+.rodape-social{
+    display: flex;
+    align-items: center;
+}
+
+.rodape-social:hover{
+    cursor: pointer;
+}
+
+#instagram{
+    margin-left: 20px;
+}
+
+.rodape hr{
+    border-color: #eaeaea;
+}
+.copy{
+    color: #fff;
+    font-family: Jost, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3em
+}
+@media screen and  (max-width: 850px) {
+    .mobile-menu-icon{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .menu-principal{
+        display: none;
+    }
+    .logo img{
+        height: 60px;
+        width: auto;
+    }
+    .mobile-menu-icon button{
+        height: auto;
+        width: auto;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu{
+        font-family: Jost, sans-serif;
+        background-color: rgb(41, 41, 41);
+        color: #fff;
+        cursor: pointer;
+    }
+    .mobile-menu ul{
+        height: 100%;
+        width: 100%;
+        list-style: none;
+    }
+    .mobile-menu li{
+        padding: 15px 0px 15px 15px;
+        height: 100%;
+    }
+    .mobile-menu a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .mobile-menu li:hover{
+        background-color: #fff;
+        color: black;
+        transition: 0.3s;
+    }
+    .mobile-menu hr{
+        border-color: rgb(129, 128, 128);
+    }
+    .open{
+        display: block;
+    }
+    .escrito-banner h1{
+        font-size: 2.5em;
+    }
+    
+    .escrito-banner h3{
+        font-size: 1.5em;
+    }
+    
+    .escrito-banner p{
+        font-size: 1.3em;
+    }
+    .sobreMim-estrutura1{
+        height: auto;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .sobreMim-estrutura1 h1{
+        font-size: 2.3em;
+    }
+    .sobreMim-estrutura1 h4{
+        font-size: 1em;
+    }
+    .sobreMim-estrutura1 p{
+        font-size: 1.3em;
+    }
+    .sobreMim-estrutura{
+        flex-direction: column;
+    }
+    .sobreMim{
+        padding: 10% 7%;
+        height: auto;
+    }
+    .sobreMim-estrutura2{
+        margin: 0px;
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 40px;
+    }
+    .sobreMim-estrutura3{
+        margin: 0px;
+        width: 100%;
+        height: 40vh;
+    }
+    .fila1-cards-habilidades{
+        flex-direction: column;
+    }
+    .fila2-cards-habilidades{
+        flex-direction: column;
+    }
+    .fila3-cards-habilidades{
+        flex-direction: column;
+    }
+    .card-habilidades img{
+        height: auto;
+        width: 40px;
+    }
+    .card-habilidades{
+        font-size: 0.6em;
+        width: 100%;
+    }
+    .card-habilidades-vazio{
+        display: none;
+    }
+    .habilidades-titulo h1{
+        font-size: 2.3em;
+    }
+    .habilidades-titulo h4{
+        font-size: 1em;
+    }
+    .calendario{
+        height: auto;
+        width: 40px;
+    }
+    .formacao-titulo h1{
+        font-size: 2.3em;
+    }
+    
+    .formacao-titulo h4{
+        font-size: 1em;
+    }
+    .experienciaProfissional-titulo h4{
+        font-size: 1em;
+    }
+    .experienciaProfissional-titulo h1{
+        font-size: 2.3em;
+    }
+    .curiosidades-estrutura1{
+        width: 100%;
+    }
+    .curiosidades-estrutura1 h1{
+        font-size: 2.3em;
+    }
+    .curiosidades-estrutura1 h4{
+        font-size: 1em;
+    }
+    .curiosidades-estrutura{
+        flex-direction: column;
+    }
+    .curiosidades-estrutura2{
+        padding-top: 40px;
+        width: 100%;
+        height: 70vh;
+    }
+    .contatos-estrutura{
+        flex-direction: column;
+    }
+    .contatos-estrutura1{
+        width: 100%;
+    }
+    .contatos-estrutura1-titulo h1{
+        font-size: 2.3em;
+    }
+    .contatos-estrutura1-titulo h4{
+        font-size: 1em;
+    }
+    .contatos-estrutura2{
+        padding-top: 40px;
+        width: 100%;
+    }
+    
+    .contatos-estrutura2 h1{
+        font-size: 2.3em;
+    }
+    
+    .contatos-estrutura2 h4{
+        font-size: 1em;
+    }
+    .rodape-estrutura{
+        flex-direction: column;
+    }
+    .rodape-coluna{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and  (max-width: 600px){
+    .formacao-estrutura{
+        flex-direction: column;
+    }
+    .formacao-estrutura1{
+        width: 80%;
+    }
+    .formacao-estrutura2{
+        width: 80%;
+    }
+
+    .card-formacao{
+        width: 100%;
+    }
+    .experienciaProfissional-estrutura{
+        flex-direction: column;
+    }
+
+    .experienciaProfissional-estrutura1{
+        width: 80%;
+    }
+    .experienciaProfissional-estrutura2{
+        width: 80%;
+    }
+
+    .card-experiencia{
+        width: 100%;
+        height: auto;
+    }
+}
